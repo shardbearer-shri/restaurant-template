@@ -1,0 +1,188 @@
+{
+  "noodles": [
+    {
+      "id": 653251,
+      "title": "Noodles and Veggies With Peanut Sauce",
+      "image": "https://spoonacular.com/recipeImages/653251-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 658270,
+      "title": "Rice Noodles With Wonton",
+      "image": "https://spoonacular.com/recipeImages/658270-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 632854,
+      "title": "Asian Noodles",
+      "image": "https://spoonacular.com/recipeImages/632854-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 641221,
+      "title": "Dan Dan Noodles",
+      "image": "https://spoonacular.com/recipeImages/641221-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 641671,
+      "title": "Drunken Noodles (Pad Kee Mao)",
+      "image": "https://www.whiskaffair.com/wp-content/uploads/2020/09/Drunken-Noodles-2-1.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 795513,
+      "title": "Zucchini Noodles with Pesto",
+      "image": "https://spoonacular.com/recipeImages/795513-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 639927,
+      "title": "Cold Soba Noodles",
+      "image": "https://spoonacular.com/recipeImages/639927-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 664573,
+      "title": "Vegetable Noodles",
+      "image": "https://spoonacular.com/recipeImages/664573-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 634629,
+      "title": "Beef Lo Mein Noodles",
+      "image": "https://spoonacular.com/recipeImages/634629-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 647384,
+      "title": "Hot and Spicy Noodles With Vegetables",
+      "image": "https://spoonacular.com/recipeImages/647384-312x231.jpg",
+      "imageType": "jpg"
+    }
+  ],
+  "pizza": [
+    {
+      "id": 656329,
+      "title": "Pizza bites with pumpkin",
+      "image": "https://spoonacular.com/recipeImages/656329-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 680975,
+      "title": "BLT Pizza",
+      "image": "https://spoonacular.com/recipeImages/680975-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 663136,
+      "title": "Thai Pizza",
+      "image": "https://spoonacular.com/recipeImages/663136-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 716300,
+      "title": "Plantain Pizza",
+      "image": "https://spoonacular.com/recipeImages/716300-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 665769,
+      "title": "Zucchini Pizza Boats",
+      "image": "https://spoonacular.com/recipeImages/665769-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 655698,
+      "title": "Pepperoni Pizza Muffins",
+      "image": "https://spoonacular.com/recipeImages/655698-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 622598,
+      "title": "Pittata - Pizza Frittata",
+      "image": "https://spoonacular.com/recipeImages/622598-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 641893,
+      "title": "Easy Cheesy Pizza Casserole",
+      "image": "https://spoonacular.com/recipeImages/641893-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 655847,
+      "title": "Pesto Veggie Pizza",
+      "image": "https://spoonacular.com/recipeImages/655847-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 654523,
+      "title": "Paneer & Fig Pizza",
+      "image": "https://spoonacular.com/recipeImages/654523-312x231.jpg",
+      "imageType": "jpg"
+    }
+  ],
+  "salad": [
+    {
+      "id": 659015,
+      "title": "Salad With Apples, Gorgonzola and Walnuts",
+      "image": "https://spoonacular.com/recipeImages/659015-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 1096010,
+      "title": "Egg Salad Wrap",
+      "image": "https://spoonacular.com/recipeImages/1096010-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 642240,
+      "title": "Egg Salad Sandwiches With Tarragon",
+      "image": "https://spoonacular.com/recipeImages/642240-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 649264,
+      "title": "Larb Salad",
+      "image": "https://spoonacular.com/recipeImages/649264-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 640311,
+      "title": "Crab Salad in Avocado Boats",
+      "image": "https://spoonacular.com/recipeImages/640311-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 640318,
+      "title": "Crab Salad Stuffed Pita Pockets",
+      "image": "https://spoonacular.com/recipeImages/640318-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 634792,
+      "title": "Beet Salad With Peppers and Lettuce",
+      "image": "https://spoonacular.com/recipeImages/634792-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 654119,
+      "title": "Orzo Salad With Vegetables and Herbs",
+      "image": "https://spoonacular.com/recipeImages/654119-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 655438,
+      "title": "Pear Salad With Walnuts and Blue Cheese",
+      "image": "https://spoonacular.com/recipeImages/655438-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 157106,
+      "title": "Wedge Salad",
+      "image": "https://spoonacular.com/recipeImages/157106-312x231.jpg",
+      "imageType": "jpg"
+    }
+  ]
+}

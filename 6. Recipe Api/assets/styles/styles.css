@@ -1,0 +1,238 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --ff-reg: "Montserrat", sans-serif;
+
+  --clr-acc-light: rgb(59, 189, 59);
+  --clr-acc-dark: rgb(117, 106, 106);
+  --clr-dark: #000000;
+  --clr-bg-primary: rgb(9, 32, 9);
+  --clr-bg: rgb(11, 39, 61);
+  --clr--text-h: rgba(8, 41, 104, 0.699);
+  --clr-white: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--ff-reg);
+  line-height: 1.6;
+  color: var(--clr-acc-dark);
+}
+a,
+li {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--clr-dark);
+}
+
+img {
+  max-width: 100%;
+}
+/* utility */
+.hidden {
+  display: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  transition: 0.2s;
+  color: var(--clr-acc-light);
+  letter-spacing: 1px;
+  outline: 1px solid var(--clr-acc-light);
+  background-color: var(--clr-white);
+  margin-right: 2rem;
+}
+.btn:hover {
+  background-color: var(--clr-acc-light);
+  color: var(--clr-white);
+}
+/* parralax */
+.parallax-container {
+  /* The image used */
+  background-image: url("/assets/img/simple-house-01.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: var(--clr-white);
+  max-height: 100%;
+  overflow: hidden;
+  display: flex;
+}
+.home-container {
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+  align-self: flex-end;
+  padding: 2rem 4rem;
+  font-size: 1.2rem;
+}
+
+.home__info {
+  margin-left: 1rem;
+}
+.nav {
+}
+.nav__list:last-child {
+  margin-right: 0rem;
+}
+.nav__list--item {
+  margin-right: 2rem;
+}
+.nav__list--item a {
+  color: var(--clr-white);
+  padding: 0.5rem 0rem;
+}
+.nav__list--item a:hover {
+  border-bottom: 1px solid var(--clr-white);
+}
+
+/* recipe section */
+
+.recipe-section {
+  margin: 4rem auto;
+  padding: 0rem 1rem;
+}
+.recipe__section--info {
+  margin: 4rem auto;
+  text-align: start;
+}
+.recipe-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 3rem;
+  text-align: justify;
+  margin: 2rem 0rem;
+}
+
+.recipe__box {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 1rem;
+}
+.recipe__box--title {
+  margin-top: 2rem;
+  min-height: 70px;
+  color: var(--clr--text-h);
+}
+.recipe-section h2 {
+  font-size: 2.5rem;
+}
+.recipe__img {
+  min-height: 177px;
+  max-height: 184px;
+  align-self: center;
+  justify-self: center;
+}
+.search-container {
+  text-align: center;
+}
+.recipe__box--cost {
+  padding: 0.8rem 0rem;
+  color: var(--clr-acc-light);
+  font-size: 1.4rem;
+}
+/* information section footer */
+
+.info-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.info__img {
+  grid-column: span 2;
+}
+.info__text {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.info__text h2 {
+  color: var(--clr--text-h);
+}
+.info__text p {
+  transform: translateY(-30px);
+}
+.info__btn {
+  width: fit-content;
+  align-self: flex-end;
+  margin-right: 0;
+}
+
+/* footer */
+.footer-section {
+  margin: 3rem 0rem;
+  padding: 0rem 1rem;
+}
+/* MEDIA QUERIES */
+/* NOTE- make it hamburger later */
+@media (max-width: 1200px) {
+  .info__img {
+    align-self: center;
+    justify-self: center;
+  }
+  .info__img,
+  .info__text {
+    grid-column: span 4;
+  }
+  .info__text h2,
+  .info__text p {
+    align-self: center;
+    padding: 1rem 0.5rem;
+  }
+  .info-section {
+    max-width: 700px;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .home-container {
+    background-color: rgba(15, 14, 14, 0.795);
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .home-container .home__title {
+    margin: 1rem 0rem;
+  }
+  .nav__list--item {
+    background-color: rgb(255, 255, 255);
+    padding: 0rem 0.5rem;
+    border-radius: 5px;
+  }
+  .nav__list--item a {
+    color: black;
+  }
+}
+@media (max-width: 500px) {
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .search-container button {
+    margin: 0.5rem 0rem;
+  }
+}
